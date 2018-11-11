@@ -19,7 +19,7 @@
                         {{-- buscador --}}
                         <div class="card-body">
                             <nav class="navbar navbar-light bg-light shadow p-3 mb-1 rounded">
-                                <strong><a class="navbar-brand">Buscador de usuarios</a></strong>
+                                <strong><a href="/" class="navbar-brand">Buscador de usuarios</a></strong>
                                 {{ Form::open(['route' => 'users', 'method' => 'GET', 'class' => 'form-inline' ]) }}
                                     <div>
                                         {{ Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Nombre']) }}
