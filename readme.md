@@ -2,7 +2,7 @@
 </p>
 
 <p  align="center">
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-blog/full-logo-min.png" width="50%"  alt="Logo-Laravel-Collective">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/full-logo-min.png" width="50%"  alt="Logo-Laravel-Collective">
 </p>
 
 </hr>
@@ -75,7 +75,7 @@ Laravel development server started: <http://127.0.0.1:8000>
 
   
 #### Index
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel-search/cap-1-min.png"  width="100%">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-search/cap-1-min.png"  width="100%">
 
 
 ## License
