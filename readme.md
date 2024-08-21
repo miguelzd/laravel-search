@@ -2,7 +2,7 @@
 </p>
 
 <p  align="center">
-<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-blog/full-logo-min.png" width="50%"  alt="Logo-Laravel-Collective">
+<img  src="https://miguelzdanovich.com/github/demo-app-laravel-blog/full-logo-min.png" width="50%"  alt="Logo-Laravel-Collective">
 </p>
 
 </hr>
@@ -19,8 +19,7 @@ Sencillo buscador de usuarios por Nombre, Email y Biográfica, ajustando la cond
 
 ## Links de referencias y paquetes utilizados
 
- - https://laravelcollective.com/
-  
+-   https://laravelcollective.com/
 
 ## composer.json
 
@@ -32,22 +31,26 @@ Sencillo buscador de usuarios por Nombre, Email y Biográfica, ajustando la cond
 "laravelcollective/html": "^5.7",
 ```
 
-NOTA: Recuerda tener instalado Composer para descargar las dependencias del proyecto. 
-
+NOTA: Recuerda tener instalado Composer para descargar las dependencias del proyecto.
 
 ## Instalación
 
 1. Descarga el proyecto https://github.com/miguelzd/blog.git a tu equipo local.
 
-2. Instala las dependencias y  plugins utilizando Composer.
+2. Instala las dependencias y plugins utilizando Composer.
+
 ```
 composer install
 ```
+
 3. Crea el archivo "**.env**" y luego genera la "**key**" de la aplicación desde la consola.
+
 ```
 php artisan key:generate
 ```
+
 4. Crea la base de datos llamada "**laravel-search**" en tu servidor **MySQL** y configurarla en el archivo "**.env**" del proyecto.
+
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -56,27 +59,29 @@ DB_DATABASE=laravel-search
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
 5. Por último, ejecuta las "**migraciones**" y los **seeders** para crear las tablas y los datos a utilizar.
+
 ```
 php artisan migrate:refresh --seed
 ```
 
 ## Ejecución
 
-Accede al directorio del proyecto  y ejecuta el servidor de desarrollo desde la consola con el comando **"php artisan serve"**
+Accede al directorio del proyecto y ejecuta el servidor de desarrollo desde la consola con el comando **"php artisan serve"**
+
 ```
 ➜  blog git:(master) ✗ php artisan serve
 ...
 Laravel development server started: <http://127.0.0.1:8000>
 ```
- 
 
 ## Screenshots
 
-  
 #### Index
-<img  src="http://c1391182.ferozo.com/github/demo-app-laravel-search/cap-1-min.png"  width="100%">
 
+<img  src="https://miguelzdanovich.com/github/demo-app-laravel-search/cap-1-min.png"  width="100%">
 
 ## License
+
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
